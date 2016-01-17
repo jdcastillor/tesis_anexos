@@ -1,5 +1,5 @@
 <?php
-include_once("../../../php_source/proxies/required.php");
+include_once("/proxies/required.php");
 
 $strCnx = "host=$host port=$port dbname=$db user=$user password=$passwd";
 $cuestionario= cambia($_COOKIE["cookie_cuestionarios0"], true);
